@@ -1,5 +1,5 @@
 ﻿<h3> EFG_Task </h3> 
- <br>
+ <hr>
 <h3> Using DevExperess to: </h3>
 <ul>
  <li>
