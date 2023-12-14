@@ -65,6 +65,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\Department.cs" />
+    <Compile Include="BLL\DepartmentService.cs" />
+    <Compile Include="BLL\Employee.cs" />
+    <Compile Include="BLL\EmployeeService.cs" />
+    <Compile Include="DAL\DatabaseHelper.cs" />
     <Compile Include="Department.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
