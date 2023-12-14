@@ -21,7 +21,6 @@ namespace DataControl_Task
 
         private void XtraForm1_Load(object sender, EventArgs e)
         {
-            DepartmentService departmentService = new DepartmentService();
 
             Company_SDEntities company_SDEntities = new Company_SDEntities();
             employeeBindingSource.DataSource = company_SDEntities.Employees.ToList();
